@@ -1,12 +1,12 @@
 import Image from "next/image";
 import tailwand from "tailwindcss"
-import Navbar from "../Components/Navbar";
-import Footer from "../Components/Footer";
+
+
 
 export default function about(){
     return(
         <section className="bg-gray-100 ">
-            <Navbar/>
+            
             <div className="container  mx-auto  px-4 md:px-8 p-5">
             <div className="bg-purple-50 shadow-lg rounded-lg p-8 md:p-10 max-w-4xl mx-auto">
                 <h1 className="text-3xl font-bold mb-4 text-center font-serif text-cyan-950 ">About</h1>
@@ -22,7 +22,7 @@ export default function about(){
             </div>
            
             </div>
-            <Footer/>
+            
         </section>
 
     )

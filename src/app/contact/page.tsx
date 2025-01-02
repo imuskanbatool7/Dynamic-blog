@@ -1,10 +1,10 @@
-import Navbar from "../Components/Navbar"
-import Footer from "../Components/Footer"
+
+
 
 export default function contact(){
     return(
         <div className="min-h-screen bg-gradient-to-r from-yellow-50 via-cyan-100 to-pink-100 ">
-            <Navbar/>
+            
             <div className="bg-white shadow:cyan-600 rounded-lg mb-6 mt-6 p-8 md:p-10 max-w-4xl mx-auto">
                 
                 <h1 className="text-4xl font-bold mb-4 text-center text-cyan-800 font-serif">Let&apos;s Connect</h1>
@@ -38,7 +38,7 @@ export default function contact(){
                 </div>
                 </form>
             </div>
-            <Footer/>
+            
         </div>
     )
 }

@@ -1,18 +1,17 @@
 
 import React from "react";
 import Link from "next/link";
-import Navbar from "./Components/Navbar";
+
 import {posts} from "./Data/page"
 import Image from "next/image";
 import CommentSec from "./Components/CommentSec";
-import  Footer from "./Components/Footer"
+
 
 export default function Home() {
   return (
      
        <div>
         
-        <Navbar/>
         
              {/* hero section */}
              <div className="relative bg-cover bg-center h-screen items-center justify-center" 
@@ -48,7 +47,7 @@ export default function Home() {
          
         ))}
         </div>
-        <Footer/>
+      
        </div>
   );
 }
