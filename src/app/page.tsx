@@ -2,7 +2,7 @@
 import React from "react";
 import Link from "next/link";
 
-import {posts} from "./Data/page"
+import { posts } from "./Data/posts"
 import Image from "next/image";
 import CommentSec from "./Components/CommentSec";
 

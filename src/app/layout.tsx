@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "./globals.css"; // Make sure this file contains your Tailwind CSS and other global styles
-import Navbar from "@/app/Components/Navbar";
-import Footer from "@/app/Components/Footer";
-// Load Inter font
+import "./globals.css"; 
+import Navbar from "../app/Components/Navbar";
+import Footer from "../app/Components/Footer";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -19,14 +19,14 @@ export default function RootLayout({
       <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        {/* Add any other meta tags here if needed */}
+        
       </head>
       <body className={inter.className}>
         <Navbar/>
         {children}
         <Footer/>
 
-        </body> {/* Renders the content of each page here */}
+        </body> 
     </html>
   );
 }
