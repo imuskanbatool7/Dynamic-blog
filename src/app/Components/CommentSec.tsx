@@ -35,7 +35,7 @@ export default function CommentSec(){
              <div
              key={index} 
              className="p-3 border rounded-md bg-cyan-50 text-gray-600 font-serif mx-4 m-4">
-                <p>{comments}</p>
+                <p>{comment}</p>
                 </div>
             ))}
         

@@ -1,5 +1,6 @@
 import Image from 'next/image';
-import CommentSec from '@/app/Components/CommentSec';
+import CommentSec from "@/app/Components/CommentSec";
+
 
 interface BlogProps{
   params:{id:string};
