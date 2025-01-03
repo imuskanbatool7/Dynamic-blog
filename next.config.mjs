@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-// next.config.js
-module.exports = {
+// next.config.js (or next.config.mjs)
+export default {
   reactStrictMode: true,
   webpack(config) {
     config.module.rules.push({
@@ -17,9 +16,3 @@ module.exports = {
     return config;
   },
 };
-=======
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
->>>>>>> c2ed1b144bf25c364b349f293bed1fc055f87cfe
