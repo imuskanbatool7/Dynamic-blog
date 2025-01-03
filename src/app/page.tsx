@@ -1,17 +1,29 @@
 
 import React from "react";
 import Link from "next/link";
+<<<<<<< HEAD
 
 import { posts } from "./Data/posts"
 import Image from "next/image";
 import CommentSec from "./Components/CommentSec";
 
+=======
+import Navbar from "./Components/Navbar";
+import {posts} from "./Data/page"
+import Image from "next/image";
+import CommentSec from "./Components/CommentSec";
+import  Footer from "./Components/Footer"
+>>>>>>> c2ed1b144bf25c364b349f293bed1fc055f87cfe
 
 export default function Home() {
   return (
      
        <div>
         
+<<<<<<< HEAD
+=======
+        <Navbar/>
+>>>>>>> c2ed1b144bf25c364b349f293bed1fc055f87cfe
         
              {/* hero section */}
              <div className="relative bg-cover bg-center h-screen items-center justify-center" 
@@ -47,7 +59,11 @@ export default function Home() {
          
         ))}
         </div>
+<<<<<<< HEAD
       
+=======
+        <Footer/>
+>>>>>>> c2ed1b144bf25c364b349f293bed1fc055f87cfe
        </div>
   );
 }

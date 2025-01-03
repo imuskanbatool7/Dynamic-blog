@@ -19,10 +19,18 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
+<<<<<<< HEAD
     to bottom,
     transparent,
     rgb(var(--background-end-rgb))
   ) rgb(var(--background-start-rgb));
+=======
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+>>>>>>> c2ed1b144bf25c364b349f293bed1fc055f87cfe
 }
 
 @layer utilities {
